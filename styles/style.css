@@ -140,3 +140,80 @@ body {
   color: #e55473;
 }
 /* instagram section start  */
+.instagram {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.instagram p {
+  width: 540px;
+}
+.rectangular-flower {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+.rectangular-flower img {
+  width: 320px;
+  height: 350px;
+}
+/* instagram end  */
+/* latest deal start */
+.latest-deal {
+  border-radius: 8px;
+  background-image: url("../images/Rectangle 9.png");
+  text-align: center;
+}
+.latest-deal > h3 {
+  padding-top: 120px;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45px;
+  padding-bottom: 120px;
+}
+#email-form {
+  width: 700px;
+  height: 64px;
+  margin-right: 15px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+/* latest deal css end here */
+/* footer start here */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 130px;
+  text-align: center;
+  background: #111010;
+}
+.footer-title {
+  padding-top: 130px;
+  color: white;
+}
+.footer-description {
+  width: 625px;
+  margin-top: 25px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer-right {
+  margin-top: 30px;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 130px;
+}
+/* end */
