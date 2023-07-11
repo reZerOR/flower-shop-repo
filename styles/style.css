@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.header {
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head-title {
+  font-size: 80px;
+  font-weight: 800;
+}
+.common-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.head-div1 {
+  margin-left: 180px;
+}
+.head-img {
+  margin-top: 50px;
+  margin-right: 180px;
+}
+.btn {
+  padding: 20px 43px;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* featured flower css start  */
+.common-section-margin {
+  margin: 135px 180px 0px 180px;
+}
+.ff {
+  text-align: center;
+}
+.common-title {
+  font-size: 40px;
+  font-weight: 800;
+}
+.round-flower {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+.flower1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+.flower1 img {
+  padding: 100px 55px 0px 55px;
+}
+
+.flower2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+.flower2 img {
+  padding: 110px 25px 50px 25px;
+}
+.flower3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+.flower3 img {
+  padding: 65px 55px 0px 55px;
+}
+.common-flower {
+  border-radius: 300px 300px 0px 0px;
+}
+.round-flower-text {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.round-flower-text p {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+/* featured flower css end here */
+.special-section {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.common-special-subsection {
+  padding: 85px 0px;
+}
+.special-section p {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+}
+/* Hot deal section start here */
+.hot-deal {
+  margin-top: 130px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.hot-deal-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 25px 0px;
+}
+.hot-deal-1 {
+  width: 590px;
+  margin-left: 300px;
+}
+.hot-deal-2 {
+  margin-right: 300px;
+}
+.hot-deal-img {
+  padding: 100px 0px;
+}
+.red {
+  color: #e55473;
+}
+/* instagram section start  */
